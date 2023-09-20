@@ -18,7 +18,7 @@ const Home = () => {
     try {
       const { data } = await axios.put(
         `${server}/task/${id}`,
-       
+        {},
         {
           withCredentials: true,
         }
